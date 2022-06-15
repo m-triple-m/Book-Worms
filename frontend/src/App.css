@@ -1,0 +1,214 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.font-link{
+
+  font-family: 'Oleo Script Swash Caps', cursive;
+
+}
+.font-link2{
+
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.font-link3{
+
+  font-family: 'EB Garamond', serif;
+  font-family: 'Oleo Script Swash Caps';
+}
+.font-link4{
+
+font-family: 'EB Garamond', serif;
+}
+
+.bg-img
+{
+  background-image: url(https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bGlicmFyeSUyMGludGVyaW9yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+}
+
+.footer
+{
+  display:flex;
+  float: right;
+
+}
+.pos
+{
+  
+
+  position: fixed;
+  /* top:px; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.overlay {
+  background-color: #f3f0f048;
+/* opacity: 0.5; */
+
+}
+
+
+.signup-img{
+
+  background: url(https://stories.uiowa.edu/sites/stories.uiowa.edu/files/2021_12_14-books-at-dey-house-jatorner-0015.jpg);
+  background-size: cover;
+  
+}
+
+.selectWrapper{
+  border-radius:36px;
+  display:inline-block;
+  overflow:hidden;
+  background:#cccccc;
+  border:1px solid #cccccc;
+}
+
+.selectBox{
+  width:160px;
+  height:40px;
+  border:0px;
+  outline:none;
+  background-color: black;
+  color: white;
+}
+
+.home
+{
+  background-image: url('https://mdbootstrap.com/img/Photos/Others/gradient2.png');
+   background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+}
+
+.page-footer {
+  background-color: #9da4b1;
+}
+
+
+.addnovelbg
+{
+  background-image: url('https://stories.uiowa.edu/sites/stories.uiowa.edu/files/2021_12_14-books-at-dey-house-jatorner-0015.jpg');
+  background-repeat: no-repeat;
+   background-size: cover; 
+   background-position: center center;
+}
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #fa709a;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to bottom right, rgba(250, 112, 154, 1), rgba(254, 225, 64, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to bottom right, rgba(250, 112, 154, 1), rgba(254, 225, 64, 1))
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.full-height{
+  height: "calc(100vh - 70px)";
+}
+
+
+.homes{
+  height: 700px;
+  object-fit: cover;
+  background-image: url('http://localhost:5000/imageA.jpeg');
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%),url("http://localhost:5000/imageA.jpeg");
+  background-size: cover;
+}
+
+
+.feature{
+  padding: 3% 12%;
+  text-align: center;
+}
+
+.feature-box{
+  text-align: center;
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-bottom: 4%;
+  padding-top: 4%;
+}
+
+.home-browse{
+  height:45vh;
+  background: url("http://localhost:5000/imageD.jpeg");
+  background-size: cover;
+  background-position: center
+}
+
+
+.inner{
+  padding-top: 140px;
+}
+
+.carousel-item{
+  height: 600px;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 130px;
+  background-color: #f3f0ef;
+}
+
+.testimonial{
+  width:20%;
+  object-fit: cover
+}
+
+.text{
+  padding-left: 15px;
+  padding-top: 90px;
+}
+ input.larger{
+  width: 18px;
+  height: 18px;
+ }
+
+ .dashboard
+ {
+  background-image: url("https://bookbub-res.cloudinary.com/image/upload/v1570655739/blog/classic-novels-for-adults.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
